@@ -40,7 +40,7 @@ every model — with the controls that keep it affordable:
 ## Repos
 
 - **[Axonate/axonate](https://github.com/Axonate/axonate)** — the gateway (core)
-- **[Axonate/ax](https://github.com/Axonate/ax)** — the CLI (`pip install axonate-cli`)
+- **[Axonate/ax](https://github.com/Axonate/ax)** — the CLI (`pip install axonate-ax`)
 - **[Axonate/vscode](https://github.com/Axonate/vscode)** — the VS Code extension
 - **[Axonate/docs](https://github.com/Axonate/docs)** — you are here
 

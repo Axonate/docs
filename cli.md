@@ -10,11 +10,11 @@ brew install Axonate/tap/ax
 ```
 **pip — macOS / Linux / Windows** (zero deps, Python 3.8+)
 ```bash
-pip install axonate-cli          # or: pipx install axonate-cli
+pip install axonate-ax          # or: pipx install axonate-ax
 ```
 **Windows** (PowerShell / CMD)
 ```powershell
-py -m pip install axonate-cli
+py -m pip install axonate-ax
 ```
 
 ## Configure
