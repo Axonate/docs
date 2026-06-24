@@ -2,22 +2,24 @@
 
 # Axonate Docs
 
-### One key, every model — shared AI for small teams.
+### One key, every model — AI that fits a small team's budget.
 
 </div>
 
 Axonate is a self-hosted, OpenAI-compatible AI gateway. Run it once, point your whole team at
-it, and share Claude / Codex / MiniMax (and later any provider API) through a single endpoint —
-with per-user budgets, smart routing, and spend tracking.
+it, and reach **every model** — real provider APIs (Anthropic, OpenAI, AWS Bedrock, Azure…) and
+**free local models** — through a single endpoint with per-user budgets, smart routing, and
+spend tracking.
 
 ## Who it's for
 
-**Small companies and teams that can't justify an AI subscription or API plan for everyone.**
-Instead of buying N seats, run a few flat subscriptions behind Axonate and share them safely:
+**Small companies and teams that need AI without a plan-per-person bill.** One gateway, one key,
+every model — with the controls that keep it affordable:
 
-- **Share, don't multiply** — one gateway on a couple of subscriptions serves the team.
 - **No surprise bills** — a hard global spend ceiling + per-user budgets that actually block.
-- **Spend cheap by default** — `auto` routing sends easy/bulk work to the cheapest model.
+- **Spend cheap by default** — `auto` routing sends easy/bulk work to the cheapest model (or a
+  **free local** one).
+- **Use what you already pay for** — route through existing AWS/Azure commitments and credits.
 - **Know who used what** — per-user trace, usage dashboard, daily Slack digest.
 
 ## Three ways to use it

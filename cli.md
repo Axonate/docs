@@ -3,8 +3,18 @@
 The tiny, zero-dependency command-line client. Repo: [Axonate/ax](https://github.com/Axonate/ax).
 
 ## Install
+
+**macOS (Homebrew)**
 ```bash
-pip install axonate-cli
+brew install Axonate/tap/ax
+```
+**pip — macOS / Linux / Windows** (zero deps, Python 3.8+)
+```bash
+pip install axonate-cli          # or: pipx install axonate-cli
+```
+**Windows** (PowerShell / CMD)
+```powershell
+py -m pip install axonate-cli
 ```
 
 ## Configure

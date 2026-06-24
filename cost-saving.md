@@ -1,11 +1,11 @@
 # How Axonate cuts your AI bill
 
-Built for small companies and teams that can't justify a paid AI seat or API plan for everyone.
+Built for small companies and teams that need AI without a plan-per-person bill.
 
-## 1. Share subscriptions instead of multiplying them
-Most teams buy one AI plan per person. Axonate lets a few flat subscriptions serve everyone
-through one gateway — each person gets their own identity and budget, but you pay for a handful
-of plans, not headcount × plans.
+## 1. One shared gateway, per-user budgets
+Everyone uses one endpoint with their own identity and enforced budget. You manage AI access
+centrally — provision keys, set caps, and see usage — instead of juggling separate plans and
+invoices per person.
 
 ## 2. Route cheap work to cheap models
 The `auto` model uses a tunable policy (`routing.yaml`): short/bulk/transform tasks go to the
@@ -22,13 +22,13 @@ prices for "summarize this" and "rename these variables."
 - LiteLLM usage dashboard + a clean **daily Slack spend digest**.
 - Catch the one workflow burning tokens before it shows up on the invoice.
 
-## 5. No lock-in when you scale
-Start on shared subscriptions (cheapest). When you outgrow them, swap to real provider APIs by
-changing one config file — model names stay the same, so nothing downstream changes. You move
-to metered APIs only for what actually needs it.
+## 5. No lock-in
+OpenAI-compatible everywhere. Add or swap providers by changing one config file — model names
+stay the same, so clients never change. Use the cheapest provider for each job and move freely
+as prices shift.
 
 ---
-> **Bottom line:** one shared gateway + smart routing + enforced budgets = the AI your small
-> team needs, at a fraction of per-seat pricing.
+> **Bottom line:** one shared gateway + smart routing across many providers (incl. free local
+> models) + enforced budgets = the AI your small team needs, without a plan-per-person bill.
 
 Set it up → [getting-started.md](getting-started.md)
